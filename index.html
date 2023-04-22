@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>
+    <title>Sighup</title>
+</head>
+<body>
+    <h1>Fiter ui cards via their profession</h1>
+
+    <div id="users"></div>
+    <form>
+        <select id="prof">
+        <option value="">Profession</option>
+        <option value="developer">Developer</option>
+        <option value="admin">Admin</option>
+        </select>
+
+    <div id="r1">
+        <p id="r1p1">1.</p>
+        <p id="r1p2">Name : John</p>
+        <p id="r1p3">Profession : Developer</p>
+        <p id="r1p4">Age:18</p>
+    </div>
+
+    <div id="r2">
+        <p id="r2p1">2.</p>
+        <p id="r2p2">Name : Jack</p>
+        <p id="r2p3">Profession : Developer</p>
+        <p id="r2p4">Age:20</p>
+    </div>
+
+    <div id="r3">
+        <p id="r3p1">3.</p>
+        <p id="r3p2">Name : Karen</p>
+        <p id="r3p3">Profession : Admin</p>
+        <p id="r3p4">Age:19</p>
+    </div>
+        
+        <button type="button" onclick="filterUsers()">Filter</button>
+        <label for="name">Name : </label>
+        <input type="text" id="name" name="name">
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age">
+        <label for="profession">Profession:</label>
+
+
+  
+  <button type="button" onclick="addUser()">Add user</button>
+
+  </form>
+</body>
+</html>

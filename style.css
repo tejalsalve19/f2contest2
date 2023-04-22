@@ -1,0 +1,309 @@
+/* .card {
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+  } */
+  body{
+    /* padding: 25px; */
+    /* background-color: black; */
+    background: #1E1E1E;
+  }
+  h1{
+    position: absolute;
+    width: 378px;
+    height: 29px;
+    left: 50px;
+    top: 80px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 29px;
+    color: #FFFFFF;
+  }
+#prof{
+    position: absolute;
+width: 172px;
+height: 28px;
+left: 50px;
+top: 10px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: normal;
+font-size: 28px;
+line-height: 29px;
+
+color: #FFFFFF;
+
+
+position: absolute;
+left: 25%;
+right: 25%;
+top: 37.5%;
+bottom: 37.5%;
+
+border: 2px solid #FFFFFF;
+
+box-sizing: border-box;
+
+position: absolute;
+width: 196px;
+height: 58px;
+left: 50px;
+top: 199px;
+
+background: #000000;
+border: 1px
+
+box-sizing: border-box;
+
+position: absolute;
+width: 196px;
+height: 58px;
+left: 50px;
+top: 199px;
+
+background: #000000;
+border: 1px solid #FFFFFF;
+}
+
+#r1{
+    box-sizing: border-box;
+
+position: absolute;
+width: 536px;
+height: 59px;
+left: 50px;
+top: 306px;
+border: 1px solid #FFFFFF;
+border-radius: 10px;
+background: #1E1E1E;
+}
+
+#r2{
+    box-sizing: border-box;
+
+position: absolute;
+width: 536px;
+height: 59px;
+left: 50px;
+top: 390px;
+
+border: 1px solid #FFFFFF;
+border-radius: 10px;
+background: #1E1E1E;
+}
+
+#r3{
+    box-sizing: border-box;
+
+position: absolute;
+width: 536px;
+height: 59px;
+left: 50px;
+top: 474px;
+
+border: 1px solid #FFFFFF;
+border-radius: 10px;
+background: #1E1E1E;
+}
+
+#r1p1{
+    position: absolute;
+width: 20px;
+height: 20px;
+left: 15px;
+top: 0px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 22px;
+
+color: #FFFFFF;
+
+}
+
+#r1p2{
+  position: absolute;
+width: 119px;
+height: 20px;
+left: 65px;
+top: 0px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 22px;
+
+color: #FFFFFF;
+}
+
+#r1p3{
+  position: absolute;
+width: 300px;
+height: 20px;
+left: 215px;
+top: 0px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 22px;
+
+color: #FFFFFF;
+}
+
+#r1p4{
+  position: absolute;
+width: 119px;
+height: 20px;
+left: 450px;
+top: 0px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 22px;
+
+color: #FFFFFF;
+}
+
+
+
+#r2p1{
+  position: absolute;
+width: 20px;
+height: 20px;
+left: 15px;
+top: 0px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 22px;
+
+color: #FFFFFF;
+
+}
+
+#r2p2{
+position: absolute;
+width: 119px;
+height: 20px;
+left: 65px;
+top: 0px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 22px;
+
+color: #FFFFFF;
+}
+
+#r2p3{
+position: absolute;
+width: 300px;
+height: 20px;
+left: 215px;
+top: 0px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 22px;
+
+color: #FFFFFF;
+}
+
+#r2p4{
+position: absolute;
+width: 119px;
+height: 20px;
+left: 450px;
+top: 0px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 22px;
+
+color: #FFFFFF;
+}
+
+
+#r3p1{
+  position: absolute;
+width: 20px;
+height: 20px;
+left: 15px;
+top: 0px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 22px;
+
+color: #FFFFFF;
+
+}
+
+#r3p2{
+position: absolute;
+width: 180px;
+height: 20px;
+left: 65px;
+top: 0px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 22px;
+
+color: #FFFFFF;
+}
+
+#r3p3{
+position: absolute;
+width: 300px;
+height: 20px;
+left: 215px;
+top: 0px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 22px;
+
+color: #FFFFFF;
+}
+
+#r3p4{
+position: absolute;
+width: 119px;
+height: 20px;
+left: 450px;
+top: 0px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 22px;
+
+color: #FFFFFF;
+}
