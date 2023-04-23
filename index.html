@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
     <script src="./script.js"></script>
-    <title>Sighup</title>
+    <title>Signup</title>
 </head>
 <body>
     <h1>Fiter ui cards via their profession.</h1>
@@ -39,17 +39,21 @@
         <p id="r3p3">Profession : Admin</p>
         <p id="r3p4">Age:19</p>
     </div>
+
+        <button type="button" id="b1" onclick="filterUsers()">Filter</button>
         
-        <button type="button" onclick="filterUsers()">Filter</button>
-        <label for="name">Name : </label>
-        <input type="text" id="name" name="name">
-        <label for="age">Age:</label>
-        <input type="number" id="age" name="age">
-        <label for="profession">Profession:</label>
 
+<h1 id="addnew">Add a new user</h1> 
+        <label for="name" id="enm">Enter Name</label>
+        <input type="text" id="inm" name="name">
 
-  
-  <button type="button" onclick="addUser()">Add user</button>
+        <label for="profession" id="ep">Enter Profession</label>
+        <input type="text" id="ip" name="profession">
+
+        <label for="age" id="ea">Enter Age</label>
+        <input type="number" id="ia" name="age">
+
+  <button type="button" id="b2" onclick="addUser()">Add user</button>
 
   </form>
 </body>
